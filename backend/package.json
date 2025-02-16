@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend of spotify Clone test for Jornada Full Stack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./api/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliemarbueno/spotifyClone.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Eliemar Bueno",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "deploy": "file:..",
+    "express": "^4.21.2",
+    "mongodb": "^6.13.0",
+    "path": "^0.12.7"
+  }
+}

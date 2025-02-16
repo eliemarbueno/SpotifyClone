@@ -2,4 +2,4 @@
 
 # Language used
 
-- React + Vite + JavaScript
+- JavaScript
